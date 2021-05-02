@@ -24,7 +24,7 @@ npm install ngx-super-croppie croppie @types/croppie
 
 1. Import ngx-super-croppie in your src/app/app.module.ts
 
-```
+```typescript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -42,14 +42,14 @@ export class AppModule {}
 
 2. Import the croppie styles in your src/styles.css
 
-```
+```css
 /* You can add global styles to this file, and also import other style files */
 @import '~croppie/croppie.css';
 ```
 
 3. Configure ngx-super-croppie in your component.ts
 
-```
+```typescript
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { CroppieOptions, ResultOptions } from 'croppie';
 import { NgxSuperCroppieComponent } from 'ngx-super-croppie';
@@ -142,7 +142,7 @@ export class AppComponent implements OnInit {
 
 4. Add ngx-super-croppie to your component.html
 
-```
+```html
 <h1>NgxSuperCroppie Demo</h1>
 
 Select image:
