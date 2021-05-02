@@ -1,0 +1,28 @@
+<h1>NgxSuperCroppie Demo</h1>
+
+Select image:
+<input type="file" (change)="handleFileInput($event.target.files)" /><br />
+<button type="button" (click)="get()">Get</button>
+<button type="button" (click)="destroy()">Destroy</button>
+<button type="button" (click)="rotate()">Rotate 90°</button>
+<button type="button" (click)="setZoom()">Zoom 0.3</button>
+
+<ngx-super-croppie
+  *ngIf="url"
+  #ngxSuperCroppie
+  [croppieOptions]="croppieOptions"
+  [url]="url"
+  [points]="points"
+  [orientation]="orientation"
+  [zoom]="zoom"
+  [resultOptions]="resultOptions"
+  (result)="updateCroppedImage($event)"
+></ngx-super-croppie>
+
+<img
+  *ngIf="croppedImage"
+  [src]="croppedImage"
+  alt="cropped image"
+  accept="image/gif, image/jpeg, image/jpg, image/png"
+  style="border: 2px solid grey"
+/>
