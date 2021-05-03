@@ -1,10 +1,14 @@
 # NgxSuperCroppie
 
-NgxSuperCroppie is a simple angular8+ wrapper for [https://github.com/foliotek/croppie](croppie).
+NgxSuperCroppie is a simple angular8+ wrapper for [croppie](https://github.com/foliotek/croppie).
 
 ## Version
 
-Version 10.x matches Angular 10.x and so forth.
+The version numbers are in line with major Angular versions:
+
+| Angular Version | ngx-super-croppie Version |
+| --------------- | ------------------------- |
+| 10.x.x          | 10.x.x                    |
 
 ## Installation
 
@@ -40,7 +44,7 @@ import { NgxSuperCroppieModule } from 'ngx-super-croppie';
 export class AppModule {}
 ```
 
-2. Import the croppie styles in your src/styles.css
+2. Import the croppie styles in your src/styles.scss
 
 ```css
 /* You can add global styles to this file, and also import other style files */
@@ -175,7 +179,7 @@ Select image:
 
 ## Example
 
-You can find a full example in the src/app/app.component.ts file of this repository.
+You can find a full example under src/app/app.component.ts in this repository.
 To run the example, follow these steps:
 
 1. Clone the repository:
@@ -192,4 +196,4 @@ To run the example, follow these steps:
 
 ## Credit
 
-ngx-super-croppie is inspired by the (unfortunately) unmaintained [https://github.com/deej81/ngx-croppie](ngx-croppie) package.
+ngx-super-croppie is inspired by the (unfortunately) unmaintained [ngx-croppie](https://github.com/deej81/ngx-croppie) package.
