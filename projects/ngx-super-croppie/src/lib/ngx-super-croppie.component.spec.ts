@@ -8,9 +8,8 @@ describe('NgxSuperCroppieComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxSuperCroppieComponent ]
-    })
-    .compileComponents();
+      declarations: [NgxSuperCroppieComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
