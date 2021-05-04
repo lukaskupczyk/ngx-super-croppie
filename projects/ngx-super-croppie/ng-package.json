@@ -1,6 +1,7 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/ngx-super-croppie",
+  "whitelistedNonPeerDependencies": ["croppie", "@types/croppie"],
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
