@@ -1,7 +1,7 @@
 {
   "name": "ngx-super-croppie",
   "description": "NgxSuperCroppie is a simple angular8+ wrapper for croppie",
-  "version": "10.0.3",
+  "version": "11.0.0",
   "author": "Lukas Kupczyk",
   "license": "MIT",
   "repository": {
@@ -36,13 +36,7 @@
     "@angular/platform-browser": "~10.1.0",
     "@angular/platform-browser-dynamic": "~10.1.0",
     "@angular/router": "~10.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
     "croppie": "^2.6.5",
-    "eslint": "^7.25.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -55,8 +49,14 @@
     "@types/croppie": "^2.6.0",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "jest": "^26.6.3",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "ng-packagr": "^10.1.0",
+    "prettier": "^2.2.1",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "typescript": "~4.0.2"
