@@ -20,7 +20,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test:app": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "copy": "cp README.md LICENSE.md dist/ngx-super-croppie",
