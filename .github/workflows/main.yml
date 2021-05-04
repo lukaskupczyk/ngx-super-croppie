@@ -48,8 +48,8 @@ jobs:
         run: yarn build:package
 
       # run tests
-      # - name: Run tests
-      #   run: yarn test:package
+      - name: Run tests
+        run: yarn test:package
 
       # publish
       - uses: JS-DevTools/npm-publish@v1
