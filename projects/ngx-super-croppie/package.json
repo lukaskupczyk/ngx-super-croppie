@@ -17,12 +17,13 @@
     "croppie"
   ],
   "peerDependencies": {
-    "@angular/common": "^10.0.0",
-    "@angular/core": "^10.0.0",
-    "tslib": "^2.0.0"
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "rxjs": "^6.0.0"
   },
   "dependencies": {
     "croppie": "^2.6.5",
-    "@types/croppie": "^2.6.0"
+    "@types/croppie": "^2.6.0",
+    "tslib": "^2.0.0"
   }
 }
