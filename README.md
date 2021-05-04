@@ -9,6 +9,7 @@ The version numbers are in line with major Angular versions:
 | Angular Version | ngx-super-croppie Version |
 | --------------- | ------------------------- |
 | 10.x.x          | 10.x.x                    |
+| 11.x.x          | 11.x.x                    |
 
 ## Installation
 
