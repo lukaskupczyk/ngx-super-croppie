@@ -24,7 +24,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "copy": "cp README.md LICENSE.md dist/ngx-super-croppie",
-    "build:package": "ng build NgxSuperCroppie --prod && yarn copy",
+    "build:package": "ng build NgxSuperCroppie --configuration production && yarn copy",
     "test:package": "ng test NgxSuperCroppie"
   },
   "dependencies": {
