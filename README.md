@@ -10,6 +10,7 @@ The version numbers are in line with major Angular versions:
 | --------------- | ------------------------- |
 | 10.x.x          | 10.x.x                    |
 | 11.x.x          | 11.x.x                    |
+| 12.x.x          | 12.x.x                    |
 
 ## Installation
 
@@ -194,6 +195,10 @@ To run the example, follow these steps:
 
 4. Open the app in your browser:
    [http://localhost:4200](http://localhost:4200)
+
+## Development
+
+To build the module use `yarn build:package`
 
 ## Credit
 
