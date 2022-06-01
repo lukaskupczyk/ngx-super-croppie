@@ -21,7 +21,7 @@ jobs:
     # configure software versions
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [14.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

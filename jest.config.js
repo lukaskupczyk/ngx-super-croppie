@@ -6,4 +6,5 @@ module.exports = {
     '<rootDir>/dist/',
     '<rootDir>/projects/ngx-super-croppie/package.json',
   ],
+  preset: 'jest-preset-angular',
 };

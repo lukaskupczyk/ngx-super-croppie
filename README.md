@@ -11,24 +11,25 @@ The version numbers are in line with major Angular versions:
 | 10.x.x          | 10.x.x                    |
 | 11.x.x          | 11.x.x                    |
 | 12.x.x          | 12.x.x                    |
+| 13.x.x          | 13.x.x                    |
 
 ## Installation
 
 Install the package and croppie with yarn:
 
-```
+```bash
 yarn add ngx-super-croppie croppie @types/croppie
 ```
 
 or with npm:
 
-```
+```bash
 npm install ngx-super-croppie croppie @types/croppie
 ```
 
 ## Usage
 
-1. Import ngx-super-croppie in your src/app/app.module.ts
+### 1. Import ngx-super-croppie in your src/app/app.module.ts
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -46,14 +47,14 @@ import { NgxSuperCroppieModule } from 'ngx-super-croppie';
 export class AppModule {}
 ```
 
-2. Import the croppie styles in your src/styles.scss
+### 2. Import the croppie styles in your src/styles.scss
 
 ```css
 /* You can add global styles to this file, and also import other style files */
 @import '~croppie/croppie.css';
 ```
 
-3. Configure ngx-super-croppie in your component.ts
+### 3. Configure ngx-super-croppie in your component.ts
 
 ```typescript
 import { Component, OnInit, ViewChild } from '@angular/core';
@@ -146,7 +147,7 @@ export class AppComponent implements OnInit {
 }
 ```
 
-4. Add ngx-super-croppie to your component.html
+### 4. Add ngx-super-croppie to your component.html
 
 ```html
 <h1>NgxSuperCroppie Demo</h1>
