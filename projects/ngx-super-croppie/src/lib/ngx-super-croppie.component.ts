@@ -94,7 +94,7 @@ export class NgxSuperCroppieComponent implements OnInit {
   /**
    * croppie object
    */
-  private _croppie: Croppie;
+  _croppie: Croppie;
 
   /**
    * init cropper
