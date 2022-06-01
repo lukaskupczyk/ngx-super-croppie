@@ -3,9 +3,6 @@
   "dest": "../../dist/ngx-super-croppie",
   "allowedNonPeerDependencies": ["croppie", "@types/croppie"],
   "lib": {
-    "entryFile": "src/public-api.ts",
-    "umdModuleIds": {
-      "croppie": "Croppie"
-    }
+    "entryFile": "src/public-api.ts"
   }
 }
