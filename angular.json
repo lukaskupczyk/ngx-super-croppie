@@ -132,5 +132,7 @@
       }
     }
   },
-  "defaultProject": "ngx-super-croppie"
+  "cli": {
+    "analytics": false
+  }
 }
