@@ -11,7 +11,7 @@
     "importHelpers": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2020",
+    "target": "ES2022",
     "module": "es2020",
     "lib": [
       "es2018",
@@ -22,6 +22,7 @@
         "dist/ngx-super-croppie/ngx-super-croppie",
         "dist/ngx-super-croppie"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   }
 }
