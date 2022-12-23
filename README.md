@@ -13,6 +13,7 @@ The version numbers are in line with major Angular versions:
 | 12.x.x          | 12.x.x                    |
 | 13.x.x          | 13.x.x                    |
 | 14.x.x          | 14.x.x                    |
+| 15.x.x          | 15.x.x                    |
 
 ## Installation
 
