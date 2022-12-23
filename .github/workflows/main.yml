@@ -21,17 +21,17 @@ jobs:
     # configure software versions
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [18.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # checkout repo
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # setup Node.js
       - name: Set Node.js - v${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
