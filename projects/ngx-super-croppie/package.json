@@ -19,7 +19,7 @@
   "peerDependencies": {
     "@angular/common": "^15.0.0",
     "@angular/core": "^15.0.0",
-    "rxjs": "^6.6.7"
+    "rxjs": "^6.5.5 || ^7.4.0"
   },
   "dependencies": {
     "croppie": "^2.6.5",
