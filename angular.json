@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-super-croppie:build"
+            "buildTarget": "ngx-super-croppie:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-super-croppie:build:production"
+              "buildTarget": "ngx-super-croppie:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-super-croppie:build"
+            "buildTarget": "ngx-super-croppie:build"
           }
         },
         "test": {
