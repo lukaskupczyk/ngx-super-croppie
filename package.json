@@ -1,7 +1,7 @@
 {
   "name": "ngx-super-croppie",
   "description": "NgxSuperCroppie is a simple angular8+ wrapper for croppie",
-  "version": "15.0.1",
+  "version": "16.0.0",
   "author": "Lukas Kupczyk",
   "license": "MIT",
   "repository": {
@@ -28,24 +28,24 @@
     "test:package": "ng test NgxSuperCroppie"
   },
   "dependencies": {
-    "@angular-devkit/build-angular": "^15.0.4",
-    "@angular/animations": "^15.0.4",
-    "@angular/common": "^15.0.4",
-    "@angular/compiler": "^15.0.4",
-    "@angular/core": "^15.0.4",
-    "@angular/forms": "^15.0.4",
-    "@angular/platform-browser": "^15.0.4",
-    "@angular/platform-browser-dynamic": "^15.0.4",
-    "@angular/router": "^15.0.4",
+    "@angular-devkit/build-angular": "^16.2.12",
+    "@angular/animations": "^16.2.12",
+    "@angular/common": "^16.2.12",
+    "@angular/compiler": "^16.2.12",
+    "@angular/core": "^16.2.12",
+    "@angular/forms": "^16.2.12",
+    "@angular/platform-browser": "^16.2.12",
+    "@angular/platform-browser-dynamic": "^16.2.12",
+    "@angular/router": "^16.2.12",
     "croppie": "^2.6.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.4.1",
-    "zone.js": "~0.12.0"
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-builders/jest": "^15.0.0",
-    "@angular/cli": "^15.0.4",
-    "@angular/compiler-cli": "^15.0.4",
+    "@angular-builders/jest": "^16.0.1",
+    "@angular/cli": "^16.2.12",
+    "@angular/compiler-cli": "^16.2.12",
     "@types/croppie": "^2.6.1",
     "@types/jest": "^29.2.4",
     "@types/node": "^18.11.17",
@@ -54,11 +54,11 @@
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "jest": "^29.3.1",
-    "ng-packagr": "^15.0.3",
+    "jest": "^29.7.0",
+    "ng-packagr": "^16.2.3",
     "prettier": "^2.8.1",
     "protractor": "~7.0.0",
     "ts-node": "~10.9.1",
-    "typescript": "4.8.2"
+    "typescript": "4.9.3"
   }
 }
