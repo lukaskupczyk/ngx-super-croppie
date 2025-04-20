@@ -43,11 +43,11 @@
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
-    "@angular-builders/jest": "^18.0.0",
+    "@angular-builders/jest": "^19.0.1",
     "@angular/cli": "^18.2.10",
     "@angular/compiler-cli": "^18.2.9",
     "@types/croppie": "^2.6.1",
-    "@types/jest": "^29.2.4",
+    "@types/jest": "^29.5.14",
     "@types/node": "^18.11.17",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
