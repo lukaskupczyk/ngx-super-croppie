@@ -1,7 +1,7 @@
 {
   "name": "ngx-super-croppie",
   "description": "NgxSuperCroppie is a simple angular8+ wrapper for croppie",
-  "version": "18.0.0",
+  "version": "19.0.0",
   "author": "Lukas Kupczyk",
   "license": "MIT",
   "repository": {
@@ -17,13 +17,13 @@
     "croppie"
   ],
   "peerDependencies": {
-    "@angular/common": "^18.0.0",
-    "@angular/core": "^18.0.0",
-    "rxjs": "^7.8.0"
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "rxjs": "^7.8.2"
   },
   "dependencies": {
     "croppie": "^2.6.5",
-    "@types/croppie": "^2.6.1",
-    "tslib": "^2.4.1"
+    "@types/croppie": "^2.6.4",
+    "tslib": "^2.8.1"
   }
 }

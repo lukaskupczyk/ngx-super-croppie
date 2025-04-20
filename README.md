@@ -17,6 +17,7 @@ The version numbers are in line with major Angular versions:
 | 16.x.x          | 16.x.x                    |
 | 17.x.x          | 17.x.x                    |
 | 18.x.x          | 18.x.x                    |
+| 19.x.x          | 19.x.x                    |
 
 ## Installation
 

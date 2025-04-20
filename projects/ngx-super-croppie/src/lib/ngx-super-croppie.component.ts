@@ -16,9 +16,10 @@ import {
 import Croppie, { CroppieOptions, ResultOptions, CropData } from 'croppie';
 
 @Component({
-  selector: 'ngx-super-croppie',
-  templateUrl: './ngx-super-croppie.component.html',
-  styleUrls: ['./ngx-super-croppie.component.css'],
+    selector: 'ngx-super-croppie',
+    templateUrl: './ngx-super-croppie.component.html',
+    styleUrls: ['./ngx-super-croppie.component.css'],
+    standalone: false
 })
 export class NgxSuperCroppieComponent implements OnInit {
   /**
