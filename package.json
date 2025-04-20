@@ -24,7 +24,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "copy": "cp README.md LICENSE.md dist/ngx-super-croppie",
-    "build:package": "ng build NgxSuperCroppie --configuration production && yarn copy",
+    "build:package": "ng build NgxSuperCroppie --configuration production && pnpm copy",
     "test:package": "ng test NgxSuperCroppie"
   },
   "dependencies": {
@@ -60,5 +60,9 @@
     "protractor": "~7.0.0",
     "ts-node": "~10.9.1",
     "typescript": "5.5.4"
+  },
+  "volta": {
+    "node": "22.14.0",
+    "pnpm": "10.8.1"
   }
 }

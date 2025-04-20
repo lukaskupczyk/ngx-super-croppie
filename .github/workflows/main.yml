@@ -41,15 +41,15 @@ jobs:
 
       # install dependencies
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       # build angular
       - name: Build package
-        run: yarn build:package
+        run: pnpm build:package
 
       # run tests
       - name: Run tests
-        run: yarn test:package
+        run: pnpm test:package
 
       # publish
       - uses: JS-DevTools/npm-publish@v1

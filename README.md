@@ -26,6 +26,12 @@ Install the package and croppie with yarn:
 yarn add ngx-super-croppie croppie @types/croppie
 ```
 
+or with pnpm:
+
+```bash
+pnpm add ngx-super-croppie croppie @types/croppie
+```
+
 or with npm:
 
 ```bash
@@ -194,17 +200,17 @@ To run the example, follow these steps:
    `git clone git@github.com:lukaskupczyk/ngx-super-croppie.git`
 
 2. Install the necessary dependencies:
-   `yarn` or `npm install`
+   `pnpm install` or `npm install`
 
 3. Serve angular:
-   `yarn start` or `npm run start`
+   `pnpm start` or `npm run start`
 
 4. Open the app in your browser:
    [http://localhost:4200](http://localhost:4200)
 
 ## Development
 
-To build the module use `yarn build:package`
+To build the module use `pnpm build:package`
 
 ## Credit
 
