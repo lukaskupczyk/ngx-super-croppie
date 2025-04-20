@@ -25,15 +25,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # checkout repo
       - name: Git checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      # setup pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
 
       # setup Node.js
-      - name: Set Node.js - v${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
 
       # install angular
       - name: Install angular
